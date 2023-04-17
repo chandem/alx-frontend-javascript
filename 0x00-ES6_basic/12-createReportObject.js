@@ -1,5 +1,4 @@
 import createEmployeesObject from './11-createEmployeesObject.js';
-import createEmployeesObject from './createEmployeesObject.js';
 
 export default function createReportObject(employeesList) {
   const allEmployees = {};
