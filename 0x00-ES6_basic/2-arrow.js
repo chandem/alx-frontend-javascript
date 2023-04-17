@@ -4,7 +4,7 @@ export default function getNeighborhoodsList() {
   this.addNeighborhood = (newNeighborhood) => { 
     // eslit disable next-line
    this.sanFranciscoNeighborhoods.push(newNeighborhood);  
-
+   //eslit disable next-line 
    return this.sanFranciscoNeighborhoods;
   };
 
