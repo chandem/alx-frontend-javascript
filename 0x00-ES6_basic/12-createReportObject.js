@@ -6,7 +6,8 @@ const allEmployees = {};
   }  
   allEmployees[employee.department].push(employee.name);
   });  
- const reportObject = {    allEmployees,    getNumberOfDepartments() {    
+ const reportObject = {    allEmployees,    
+ getNumberOfDepartments() {    
   return Object.keys(allEmployees).length;
    },
   }; 
