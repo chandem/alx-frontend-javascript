@@ -3,3 +3,5 @@ const getSumOfHoods = (initialNumber, expansion1989 = 89, expansion2019 = 19) =>
 };
 
 export default getSumOfHoods;
+ 
+/* eslint-disable */
