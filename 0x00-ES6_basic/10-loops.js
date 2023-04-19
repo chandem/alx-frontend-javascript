@@ -1,4 +1,7 @@
-const appendToEachArrayValue = (array, appendString) => 
-  array.map(value => appendString + value);
+export default function appendToEachArrayValue(array, appendString) {
+  for (let value of array) {
+    array[idx] = appendString + value;
+  }
 
-export default appendToEachArrayValue;
+  return array;
+}
