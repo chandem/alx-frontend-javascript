@@ -12,8 +12,3 @@ class Building {
   }
 }
 
-class House extends Building {
-  evacuationWarningMessage() {
-    return 'Please evacuate immediately!';
-  }
-}
