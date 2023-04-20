@@ -47,5 +47,3 @@ class HolbertonCourse {
     this._students = students;
   }
 }
-
-
