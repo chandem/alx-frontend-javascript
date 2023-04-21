@@ -18,6 +18,7 @@ module.exports = {
         "react",
         "@typescript-eslint"
     ],
-    "rules": {
-    }
+     "rules": {
+       "no-unused-vars": "off"
+   }
 }
