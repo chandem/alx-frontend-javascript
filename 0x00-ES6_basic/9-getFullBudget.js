@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars, arrow-parens, semi */
+
 import getBudgetObject from './7-getBudgetObject.js';
 
 export default function getFullBudgetObject(income, gdp, capita) {
@@ -9,8 +11,10 @@ export default function getFullBudgetObject(income, gdp, capita) {
     },
     getIncomeInEuros(income) {
       return `${income} euros`;
-    },
+    }
   };
   return fullBudget;
 }
+
+/* eslint-enable no-unused-vars, arrow-parens, semi */
 
